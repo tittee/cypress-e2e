@@ -7,7 +7,7 @@
   "singleQuote": true,
   "quoteProps": "consistent",
   "trailingComma": "all",
-  "htmlWhitespaceSensitivity": "ignore",
+  "htmlWhitespaceSensitivity": "strict",
   "endOfLine": "crlf",
   "arrowParens": "avoid"
 }

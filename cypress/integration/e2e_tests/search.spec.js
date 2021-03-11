@@ -8,6 +8,6 @@ describe('Search Box Test', () => {
   });
 
   it('should show search results page', () => {
-    cy.get('h2').should('have.visible');
+    cy.get('h2').contains('Search Results:');
   });
 });
