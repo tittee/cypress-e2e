@@ -1,0 +1,19 @@
+{
+  "name": "cypress-e2e",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.6.0",
+    "cypress-xpath": "^1.6.2"
+  },
+  "dependencies": {
+    "prettier": "^2.2.1"
+  },
+  "description": ""
+}
