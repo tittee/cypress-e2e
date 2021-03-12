@@ -2,7 +2,6 @@ describe('Password Test', () => {
   before(() => {
     cy.visit('http://zero.webappsecurity.com/index.html');
   });
-
   it('should click on the signin button', () => {
     cy.get('#signin_button').click();
   });
